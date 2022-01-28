@@ -1,0 +1,394 @@
+* {
+    margin : 0;
+    padding : 0;
+    text-decoration : none;
+    list-style: none;
+    color : black;
+    border-collapse: collapse;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.intro_bg {
+    background-image: url(https://cdn-front-door.elice.io/landing/static/media/home-fullcover.9cbc2eac.png);
+    background-repeat : no-repeat;
+    background-size : cover;
+    height : 700px;
+    margin : auto;
+}
+
+.header {
+    background-color : white;
+    width : 100%;
+    height : 64px;
+    margin : auto;
+    display : flex;
+    position : fixed;
+}
+
+.header > img {
+    width : 133px;
+    height : 40px;
+    margin : 12px 20px 10px 24px;
+}
+
+.nav {
+    width : cal(100% - 133px);
+    line-height : 64px;
+    display : flex;
+}
+
+.nav > li {
+    border : 1px white solid;
+    padding : 0 10px;
+}
+
+
+.first_text > h1{
+    color : white;
+    margin-left : 80px;
+    font-size : 47px;
+    line-height: 70px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.free {
+    margin-left : 80px;
+    margin-top : 50px;
+    padding : 10px 20px;
+    background : white;
+    border : white solid 1px;
+    border-radius: 5px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.course {
+    margin-left : 10px;
+    padding : 10px 20px;
+    background-color : rgba(0, 0, 0, 0);
+    border : white solid 1px;
+    border-radius: 5px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.free p {
+    font-size : 20px;
+    color : black;
+}
+
+.course p {
+    font-size : 20px;
+    color : white;
+}
+
+.arrow {
+    text-align: center;
+    font-size : 50px;
+    transform : rotate(90deg);
+    margin-top: 80px;
+    animation : UD 500ms linear infinite alternate;
+}
+
+@keyframes UD {
+    from {
+        margin-top : 75px;
+    }
+    to {
+        margin-top : 85px;
+    }
+}
+
+.arrow > a {
+    color : white;
+    animation : CC 500ms linear infinite alternate;
+}
+
+@keyframes CC {
+    from {
+        color : rgba(255, 255, 255, 0.3);
+    }
+    to {
+        color : rgba(255, 255, 255);
+    }
+}
+
+#part1 {
+    width : 100%;
+    display : flex;
+    padding : 50px auto;
+}
+
+#platform {
+    padding-left : 80px;
+    display : inline-block;
+    width : 50%;
+    position : relative;
+    top : 250px;
+}
+
+.platform {
+    display : inline-block;
+    padding: 7px;
+    background : rgb(214, 214, 236);
+    font-weight : bold;
+    color : #524FA1;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+#platform h1 {
+    margin-top : 20px;
+    font-size : 50px;
+}
+
+#platform p {
+    margin-top: 35px;
+    font-size : 20px;
+}
+
+#platform  a strong{
+    color : #524FA1;
+}
+
+#part1 > img {
+    width : 40%;
+    margin-right : 20px;
+    margin-top : 150px;
+    margin-bottom : 250px;
+}
+
+#part2 {
+    width : 100%;
+    display : flex;
+    background : rgb(248, 248, 255);
+}
+
+#edu_course {
+    padding-left : 80px;
+    display : inline-block;
+    width : 50%;
+    position : relative;
+    top : 250px;
+}
+
+.edu_course {
+    display : inline-block;
+    padding: 7px;
+    background : rgb(214, 214, 236);
+    color : #524FA1;
+    font-weight: bold;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+#edu_course h1 {
+    margin-top : 20px;
+    font-size : 50px;
+}
+
+#edu_course p {
+    margin-top: 35px;
+    font-size : 20px;
+}
+
+#edu_course a strong{
+    color : #524FA1;
+}
+
+#part2 > img {
+    width : 40%;
+    margin-right : 20px;
+    margin-top : 150px;
+    margin-bottom : 250px;
+}
+
+#part3 {
+    width : 100%;
+    display : flex;
+}
+
+#edu_environment {
+    padding-left : 80px;
+    display : inline-block;
+    width : 50%;
+    position : relative;
+    top : 250px;
+}
+
+.edu_environment {
+    display : inline-block;
+    padding: 7px;
+    background : rgb(214, 214, 236);
+    font-weight : bold;
+    color : #524FA1;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+#edu_environment h1 {
+    margin-top : 20px;
+    font-size : 50px;
+}
+
+#edu_environment p {
+    margin-top: 35px;
+    font-size : 20px;
+}
+
+#edu_environment a strong{
+    color : #524FA1;
+}
+
+#part3 > img {
+    width : 40%;
+    margin-right : 20px;
+    margin-top : 150px;
+    margin-bottom : 250px;
+}
+
+.award {
+    text-align : center;
+    margin-top : 20px;
+}
+
+.award img {
+    margin: 30px;
+}
+
+.award0 {
+    text-align : center;
+}
+
+.award0 img {
+    margin : 30px;
+}
+
+.propose {
+    background-image: url(https://cdn-front-door.elice.io/landing/static/media/second-bg-oval.8f4cd4e7.png);
+    background-repeat : no-repeat;
+    background-size : cover;
+    text-align: center;
+    margin-top : 50px;
+    padding : 70px;
+    line-height: 50px;;
+}
+
+.propose h1{
+    color : white;
+}
+
+.propose p {
+    color : white;
+}
+
+.free_propose {
+    margin-top : 30px;
+    padding : 10px 20px;
+    background : white;
+    border : white solid 1px;
+    border-radius: 3px;
+    font-size : 17px;
+    font-weight : bold;
+}
+
+.footer {
+    width : 100%;
+    height : 170px;
+    padding-left : 150px;
+}
+
+.second_nav {
+    display : flex;
+    margin-top : 70px;
+}
+
+.second_nav0 {
+    display : flex;
+}
+
+.second_nav0 li {
+    margin-right : 20px;
+    font-size : 13px;
+}
+
+.information {
+    margin-top : 25px;
+}
+
+.information p {
+    color : #A8A9AB;
+    font-size : 12px;
+    line-height: 20px;
+}
+
+.footer_title {
+    font-weight : bold;
+}
+
+@media(min-width : 500px) and (max-width : 1024px) {
+    .nav {
+        display : none;
+    }
+
+    #part1 {
+        display : flex;
+        flex-wrap : wrap;
+        margin : 0;
+        padding : 0;
+    }
+    #platform {
+        width : 800px;
+        text-align: center;
+        margin : 0 auto;
+        position : none;
+    }
+
+    #part1 img {
+        width : 500px;
+        margin : 300px auto 100px auto;
+    }
+
+    #part2 {
+        display : flex;
+        flex-wrap : wrap;
+        margin : 0;
+        padding : 0;
+    }
+    #edu_course {
+        width : 800px;
+        text-align: center;
+        margin : 0 auto;
+        position : none;
+    }
+
+    #part2 img {
+        width : 500px;
+        margin : 300px auto 100px auto;
+    }
+
+    #part3 {
+        display : flex;
+        flex-wrap : wrap;
+        margin : 0;
+        padding : 0;
+    }
+    #edu_environment {
+        width : 800px;
+        text-align: center;
+        margin : 0 auto;
+        position : none;
+    }
+
+    #part3 img {
+        width : 500px;
+        margin : 300px auto 100px auto;
+    }
+
+    .footer {
+        width : 95%;
+        padding : 20px 0 120px 20px;
+    }
+
+    .header > img {
+        margin : 12px 20px 10px 70px;
+    }
+}
