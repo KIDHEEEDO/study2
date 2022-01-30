@@ -13,7 +13,7 @@
     <script>
         window.onload = () => {
             let aTags = document.querySelectorAll('header a');
-            for(let i = 0; i < 8; i++) {
+            for(let i = 0; i < aTags.length; i++) {
                 aTags[i].onclick = function(e) {
                     e.preventDefault();
                     let target = document.querySelector(this.getAttribute('href'));
